@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Exercice 14 - formulaire</title>
+</head>
+
+<body>
+
+    <form id="detals">
+        <fieldset>
+            <legend>Nous contacter</legend>
+            <p><label for="nom">Votre nom :</label>
+                <input type="text" name="nom" required />
+            </p>
+            <p><label for="prenom">Votre prénom :</label>
+                <input type="text" name="prenom" />
+            </p>
+            <p><label for="tel">Votre téléphone :</label>
+                <input type="tel" name="tel" /></p>
+            <input type="button" id="valider" value="Valider" />
+        </fieldset>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+{
+    "prefs": {
+        "dossier": "images",
+        "auto": true,
+        "time": 2000,
+        "pausedOnHover": true
+    },
+    "imgs": [{
+            "file": "automne.jpg",
+            "text": "C'est l'automne"
+        },
+        {
+            "file": "eiffel.jpg",
+            "text": "Tour Eiffel"
+        },
+        {
+            "file": "fleur.jpg",
+            "text": "C'est beau la nature"
+        },
+        {
+            "file": "fraise.jpg",
+            "text": "Mmmmmm"
+        },
+        {
+            "file": "plage.jpg",
+            "text": "Le vacances"
+        },
+        {
+            "file": "rome.jpg",
+            "text": "Les pays le pizza"
+        },
+        {
+            "file": "soir.jpg",
+            "text": "Joli caucher de soleil"
+        },
+        {
+            "file": "taxi.jpg",
+            "text": "Hep taxi"
+        },
+        {
+            "file": "tortue.jpg",
+            "text": "Le tort tue ?"
+        }
+    ]
+}

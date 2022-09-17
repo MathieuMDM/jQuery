@@ -1,0 +1,56 @@
+fieldset {
+  margin: 1em 25%;
+  margin-top: 50px;
+  border: 1px solid #001500;
+  background-color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px #fff;
+  width: 650px;
+  height: 320px;
+  list-style-type: none;
+  position: relative;  
+}
+
+legend {
+  border: 1px solid #001500;
+  border-radius: 20px;
+  text-align: center;
+}
+
+fieldset p {
+  /* display: flex; */
+  position: relative;
+  justify-content: right;  
+  margin-right: 65px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+input {
+  border-radius: 20px;
+}
+
+#valider {
+  margin: 0;
+  position: relative;
+  top: 10%;
+  left: 40%;
+  text-align: center;
+  cursor: pointer;
+}
+
+label.error {
+  color: red;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+input.error {
+  border: 1px dashed red;
+  color: red;
+}
+
+
+
+

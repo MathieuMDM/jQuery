@@ -1,0 +1,51 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px ;    
+}
+
+.containerX{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.containerX li{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    position: relative;
+}
+
+.splitOne {
+    background-image: url(img/img1.jpg);
+}
+
+.splitTwo {
+    background-image: url(img/img2.jpg);
+}
+
+.splitThree {
+    background-image: url(img/img3.jpg);
+}
+
+.splitFour {
+    background-image: url(img/img4.jpg);
+}
+
+.containerX li p{
+    bottom: -25px;
+    left: 10px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+}

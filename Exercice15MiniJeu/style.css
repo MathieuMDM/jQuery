@@ -1,0 +1,35 @@
+.rectangle {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+#ciel {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 900px;
+    background-image: url(img/ciel.png);
+}
+
+#number {
+    float: right;
+    font-size: 32px;
+    color: red;
+}
+
+#rocket {
+    /* position: fixed; */
+    /* float: right; */
+    left: 1050px;
+    height: 44px;
+    width: 150px;
+    background: url("img/rocket.png");
+
+}
+
+#plane {
+    position: absolute;
+    height: 108px;
+    width: 150px;
+    background: url("img/plane.png");
+}
